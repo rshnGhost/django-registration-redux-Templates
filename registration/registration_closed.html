@@ -1,0 +1,9 @@
+{% extends "registration/registration_base.html" %}
+{% load crispy_forms_tags %}
+{% load i18n %}
+
+{% block title %}{% trans "Registration is closed" %}{% endblock %}
+
+{% block content %}
+<p>{% trans "Sorry, but registration is closed at this moment. Come back later." %}</p>
+{% endblock %}
